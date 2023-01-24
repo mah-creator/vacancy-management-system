@@ -1,3 +1,5 @@
+package general;
+
 public enum Gender{
     MALE(0, "Male") , 
     FEMALE(1, "Female") ;

@@ -1,3 +1,7 @@
+package user;
+
+import general.*;
+
 public class User extends Person {
     String email;
     String password;    

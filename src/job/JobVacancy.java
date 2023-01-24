@@ -1,3 +1,4 @@
+package job;
 public class JobVacancy extends JobPosition{
     VacancyStatus status = VacancyStatus.ACCEPTING_APPLICATIONS;
     public JobVacancy(String title){

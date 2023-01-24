@@ -12,6 +12,8 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 
+import user.WrongUserCredentialsException;
+
 public class LoginController extends MainController implements Initializable{
 	@FXML
 	TextField userNameField;

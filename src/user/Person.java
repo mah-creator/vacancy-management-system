@@ -1,3 +1,7 @@
+package user;
+
+import general.*;
+
 public class Person {
     private static int arbitraryID = 1000;
     BirthDate arbitrartBirthDate = new BirthDate(Month.JAN, 1997);

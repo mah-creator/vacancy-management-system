@@ -1,4 +1,10 @@
+package inventory;
+
 import java.util.HashMap;
+
+import user.*;
+import general.*;
+
 public class UserInventory {
     private static HashMap<String,User> listOfUser=new HashMap<>();
 

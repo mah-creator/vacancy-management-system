@@ -8,6 +8,9 @@ import javafx.scene.Scene;
 import javafx.scene.chart.PieChart.Data;
 import javafx.stage.Stage;
 
+import inventory.InventorySystem;
+import job.VacancyStatus;
+
 public class MainController {
     protected Stage primaryStage = Test.primaryStage;
     protected Scene loginScene = Test.loginScene;

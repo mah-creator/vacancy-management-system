@@ -1,3 +1,7 @@
+package user;
+
+import general.*;
+
 public class Admin extends User {
     public Admin(String userName, String password){
         super((userName + "@admin.atc.org"), password);

@@ -1,9 +1,13 @@
+package inventory;
+
 import java.util.HashMap;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.scene.chart.PieChart.Data;
+
+import job.*;
 
 public class JobInventory {
     private HashMap<VacancyStatus,ObservableList<JobVacancy>> hashMap = new HashMap();

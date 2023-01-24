@@ -1,3 +1,5 @@
+package general;
+
 public class BirthDate {
     Month month;
     int year;

@@ -1,5 +1,7 @@
+package user;
+
 public class WrongUserCredentialsException extends IllegalStateException {
-    WrongUserCredentialsException(){
+    public WrongUserCredentialsException(){
         super("Wrong Email or Password");
     }
 }

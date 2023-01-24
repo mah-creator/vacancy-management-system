@@ -1,3 +1,5 @@
+package job;
+
 public enum VacancyStatus{ 
     ACCEPTING_APPLICATIONS(0, "Accepting applications"),
     REVIEWING_APPLICATIONS(1, "Reviewing applications"),
@@ -9,8 +11,8 @@ public enum VacancyStatus{
     
     final int TOTAL_STATUS = 7;
 
-    final int value;
-    final String label;
+    public final int value;
+    public final String label;
     
     VacancyStatus(int value, String label){
         this.value = value;
